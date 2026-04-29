@@ -119,4 +119,4 @@ with col_f2:
     if filtro_status != "Todos":
         df = df[df["status"] == filtro_status]
 
-st.dataframe(df, use_container_width=True)py -m pip install plotly
+st.dataframe(df, use_container_width=True)
